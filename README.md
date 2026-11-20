@@ -2,8 +2,8 @@
 
 [![License: AGPL v3](https://badgen.net/badge/License/AGPLv3/blue)](./LICENSE)
 [![Commercial License](https://badgen.net/badge/Commercial/Available/purple)](./COMMERCIAL_LICENSE.md)
-[![Core: Rust](https://badgen.net/badge/Core/Rust/orange)](https://rust-lang.org)
-[![Bindings: Python | Node | WASM](https://badgen.net/badge/Bindings/Python%20%7C%20Node%20%7C%20WASM/green)](#quick-start-usage)
+[![Core: Rust](https://badgen.net/badge/Core/Rust/red)](https://rust-lang.org)
+[![Bindings: Python | Node | WASM](https://badgen.net/badge/Bindings/Python%20%7C%20Node%20%7C%20WASM/pink)](#quick-start-usage)
 [![Sponsor](https://badgen.net/badge/Sponsor/GitHub/black?icon=github)](https://github.com)
 
 
