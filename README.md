@@ -1,10 +1,10 @@
 # Aetherial Zero-Footprint (`aetherial-zero-footprint`)
 
-[![License: AGPL v3](https://shields.io)](./LICENSE)
-[![Commercial License](https://shields.io)](./COMMERCIAL_LICENSE.md)
-[![Core: Rust](https://shields.io)](https://rust-lang.org)
-[![Bindings: Python | Node | WASM](https://shields.io)](#quick-start-usage)
-[![Sponsor](https://shields.io)](https://github.com)
+[![License: AGPL v3](./.github/badges/license.svg)](./LICENSE)
+[![Commercial License](./.github/badges/commercial.svg)](./COMMERCIAL_LICENSE.md)
+[![Core: Rust](./.github/badges/core.svg)](https://rust-lang.org)
+[![Bindings: Python | Node | WASM](./.github/badges/bindings.svg)](#quick-start-usage)
+[![Sponsor](./.github/badges/sponsor.svg)](https://github.com)
 
 **Deterministic zero-swap RAM locking and cryptographic NVMe scratchpad shredding for serverless functions, multi-tenant workers, and ephemeral compute environments.**
 
