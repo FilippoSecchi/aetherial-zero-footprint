@@ -2,9 +2,9 @@
 
 [![License: AGPL v3](https://badgen.net/badge/License/AGPLv3/blue)](./LICENSE)
 [![Commercial License](https://badgen.net/badge/Commercial/Available/purple)](./COMMERCIAL_LICENSE.md)
-[![Core: Rust](https://badgen.net3/badge/Core/Rust/orange)](https://rust-lang.org)
+[![Core: Rust](https://badgen.net/badge/Core/Rust/orange)](https://rust-lang.org)
 [![Bindings: Python | Node | WASM](https://badgen.net/badge/Bindings/Python%20%7C%20Node%20%7C%20WASM/green)](#quick-start-usage)
-[![Sponsor](https://badgen.net/badge/Sponsor/GitHub/pink?icon=github)](https://github.com)
+[![Sponsor](https://badgen.net/badge/Sponsor/GitHub/black?icon=github)](https://github.com)
 
 
 **Deterministic zero-swap RAM locking and cryptographic NVMe scratchpad shredding for serverless functions, multi-tenant workers, and ephemeral compute environments.**
