@@ -1,6 +1,6 @@
 # Aetherial Zero-Footprint (`aetherial-zero-footprint`)
 
-[![License: AGPL v3](.github/badges/license.svg)](./LICENSE)
+[![License: AGPL v3](./.github/badges/license.svg)](./LICENSE)
 [![Commercial License](./.github/badges/commercial.svg)](./COMMERCIAL_LICENSE.md)
 [![Core: Rust](./.github/badges/core.svg)](https://rust-lang.org)
 [![Bindings: Python | Node | WASM](./.github/badges/bindings.svg)](#quick-start-usage)
