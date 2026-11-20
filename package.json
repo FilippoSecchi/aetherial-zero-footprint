@@ -1,0 +1,11 @@
+{
+  "name": "aetherial-zero-footprint",
+  "version": "0.1.0",
+  "description": "Zero-swap locked RAM buffers and cryptographic NVMe scratchpad shredding for ephemeral workloads.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "license": "AGPL-3.0-only",
+  "napi": {
+    "binaryName": "aetherial-zero-footprint"
+  }
+}

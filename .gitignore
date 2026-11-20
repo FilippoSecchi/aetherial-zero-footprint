@@ -1,1 +1,6 @@
 /target
+/pkg
+*.node
+*.whl
+**/*.rs.bk
+.DS_Store
