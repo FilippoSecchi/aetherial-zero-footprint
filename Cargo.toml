@@ -1,11 +1,11 @@
 [package]
 name = "aetherial-zero-footprint"
 version = "0.1.0"
-edition = "2021"
+edition = "2026"
 license = "AGPL-3.0-only"
 authors = ["Filippo Secchi <filippo@aetherial.online>"]
 description = "Zero-swap locked RAM buffers and cryptographic NVMe scratchpad shredding for ephemeral workloads."
-repository = "https://github.com"
+repository = "https://github.com/FilippoSecchi/aetherial-zero-footprint.git"
 homepage = "https://aetherial.online"
 keywords = ["security", "cryptography", "zeroize", "mlock", "serverless"]
 categories = ["cryptography", "memory-management", "os"]
