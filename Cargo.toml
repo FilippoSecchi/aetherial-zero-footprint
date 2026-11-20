@@ -1,0 +1,39 @@
+[package]
+name = "aetherial-zero-footprint"
+version = "0.1.0"
+edition = "2021"
+license = "AGPL-3.0-only"
+authors = ["Filippo Secchi <filippo@aetherial.online>"]
+description = "Zero-swap locked RAM buffers and cryptographic NVMe scratchpad shredding for ephemeral workloads."
+repository = "https://github.com"
+homepage = "https://aetherial.online"
+keywords = ["security", "cryptography", "zeroize", "mlock", "serverless"]
+categories = ["cryptography", "memory-management", "os"]
+
+[lib]
+name = "aetherial_zero_footprint"
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default = ["native"]
+native = []
+python = ["native", "pyo3"]
+node = ["native", "napi", "napi-derive"]
+wasm = ["wasm-bindgen", "getrandom/js"]
+
+[dependencies]
+zeroize = { version = "1.8", features = ["derive"] }
+rand = "0.8"
+thiserror = "1.0"
+getrandom = "0.2"
+
+pyo3 = { version = "0.22", features = ["extension-module"], optional = true }
+napi = { version = "2.16", default-features = false, features = ["napi4"], optional = true }
+napi-derive = { version = "2.16", optional = true }
+wasm-bindgen = { version = "0.2", optional = true }
+
+[target.'cfg(all(unix, not(target_arch = "wasm32")))'.dependencies]
+libc = "0.2"
+
+[target.'cfg(all(windows, not(target_arch = "wasm32")))'.dependencies]
+windows-sys = { version = "0.52", features = ["Win32_System_Memory"] }
