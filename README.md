@@ -4,7 +4,7 @@
 [![Commercial License](https://badgen.net/badge/Commercial/Available/purple)](./COMMERCIAL_LICENSE.md)
 [![Core: Rust](https://badgen.net/badge/Core/Rust/red)](https://rust-lang.org)
 [![Bindings: Python | Node | WASM](https://badgen.net/badge/Bindings/Python%20%7C%20Node%20%7C%20WASM/yellow)](#quick-start-usage)
-[![Sponsor](https://badgen.net/badge/Sponsor/GitHub/black?icon=github)](https://github.com/FilippoSecchi/aetherial-zero-footprint)
+[![Sponsor](https://badgen.net/badge/Sponsor/GitHub/black?icon=github)](https://github.com/aetherial-online/aetherial-zero-footprint)
 
 
 **Deterministic zero-swap RAM locking and cryptographic NVMe scratchpad shredding for serverless functions, multi-tenant workers, and ephemeral compute environments.**
@@ -197,5 +197,5 @@ Good security engineering requires stating architectural boundaries clearly:
 
 ## Support & Sponsorships
 
-* ❤️ **Sponsor on GitHub:** Click the **Sponsor** button at the top of this repository (`https://github.com/FilippoSecchi/aetherial-zero-footprint`) — Commercial Sponsor tiers automatically include a proprietary license.
+* ❤️ **Sponsor on GitHub:** Click the **Sponsor** button at the top of this repository (`https://github.com/aetherial-online/aetherial-zero-footprint`) — Commercial Sponsor tiers automatically include a proprietary license.
 * 🚀 **Need Full-Stack Scale-to-Zero Database Isolation?** `aetherial-zero-footprint` was extracted from **[Aetherial](https://aetherial.online)** — our stateless, zero-knowledge storage fabric that hydrates physically isolated, `AES-256-GCM` encrypted tenant databases in `<2ms` (`0 MB` idle RAM) and supports `1ms` GDPR crypto-shredding.
