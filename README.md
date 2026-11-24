@@ -4,7 +4,6 @@
 [![Commercial License](https://badgen.net/badge/Commercial/Available/purple)](./COMMERCIAL_LICENSE.md)
 [![Core: Rust](https://badgen.net/badge/Core/Rust/red)](https://rust-lang.org)
 [![Bindings: Python | Node | WASM](https://badgen.net/badge/Bindings/Python%20%7C%20Node%20%7C%20WASM/yellow)](#quick-start-usage)
-[![CI Verification](https://badgen.net/badge/Verification/Passed/green)](https://github.com/aetherial-online/aetherial-zero-footprint)
 [![Sponsor](https://badgen.net/badge/Sponsor/GitHub/black?icon=github)](https://github.com/aetherial-online/aetherial-zero-footprint)
 
 
