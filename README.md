@@ -1,5 +1,6 @@
 # Aetherial Zero-Footprint (`aetherial-zero-footprint`)
 
+[![CI Verification](https://github.com/aetherial-online/aetherial-zero-footprint/actions/workflows/ci.yml/badge.svg)](https://github.com/aetherial-online/aetherial-zero-footprint/actions/workflows/ci.yml)
 [![License: AGPL v3](https://badgen.net/badge/License/AGPLv3/blue)](./LICENSE)
 [![Commercial License](https://badgen.net/badge/Commercial/Available/purple)](./COMMERCIAL_LICENSE.md)
 [![Core: Rust](https://badgen.net/badge/Core/Rust/red)](https://rust-lang.org)
