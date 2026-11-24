@@ -50,7 +50,7 @@ impl LockedBuffer {
 
     #[cfg(windows)]
     fn lock_pages(ptr: *mut u8, len: usize) -> Result<bool, MemoryError> {
-        extern "system" {
+        unsafe extern "system" {
             fn VirtualLock(lpAddress: *const core::ffi::c_void, dwSize: usize) -> i32;
         }
         let res = unsafe { VirtualLock(ptr as *const core::ffi::c_void, len) };
@@ -70,7 +70,7 @@ impl LockedBuffer {
 
     #[cfg(windows)]
     fn unlock_pages(ptr: *mut u8, len: usize) {
-        extern "system" {
+        unsafe extern "system" {
             fn VirtualUnlock(lpAddress: *const core::ffi::c_void, dwSize: usize) -> i32;
         }
         unsafe {
